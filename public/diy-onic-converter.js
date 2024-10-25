@@ -21,7 +21,7 @@ function isStartOfWord(str) {
 
 // We use isLetter to find the start of a word, and isCharacterInWord to find the end of a word, so that we include acronyms or l33t speak
 function isCharacterInWord(str) {
-  return str.length === 1 && str.match(/[A-Za-z.0-9:\/\?\&]/i);
+  return str.length === 1 && str.match(/[A-Za-z.0-9:\/\?\&-]/i);
 }
 
 // If you wanted to change the number of characters to bold, this is the place to do it

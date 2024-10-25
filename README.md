@@ -22,6 +22,9 @@ I enjoyed re-learning the tokenizer approaches I was taught in my university day
 I used this text on the bionic reading app to test out how it works;
 `This is a test to (input some) sample text.  It includes a url like www.google.com.  I wonder what will happen.  I also wonder what happens with numbers like 12.30 or 5542 or 6tarting a word or one in the m1ddle of a word or near3r to the end`
 This text also summarizes the text edge cases I looked at.
+One edge case my approach does not have a solution for;
+- If you run this multiple times, the page will get more and more bold.
+  - This is fixable by storing the original value in a Shadow DOM, and checking to see if we're working on "raw" nodes or "modified" nodes
 
 I tested it out on;
 - This wikipedia page [Fuso class battleship](https://en.wikipedia.org/wiki/Fus%C5%8D-class_battleship)
