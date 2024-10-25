@@ -33,6 +33,8 @@ I tested it out on;
   - Making the bolding `!important` is a way around this, but we would still at the mercy of the web page not using its own `!important`s
 - Hacker News
   - A very text-heavy site
+- [Stack Overflow](https://stackoverflow.com/questions/175739/how-can-i-check-if-a-string-is-a-valid-number) (Incidentally, the one I copied some code from!)
+  - This shows another limiation;  It's kinda slow to run.  Since we are doing this based on a selector, we could split it up into multiple smaller calls that yield the thread, or use web workers to make it async.
 
 
 # diy-onic-converter
